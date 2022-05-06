@@ -4,14 +4,23 @@ Originally designed via [Weebly](https://www.weebly.com/), this project aims to 
 
 ## Technologies
 
-- React
-- Remix
-- Node
+-   React
+-   Remix
+-   Node
+-   Unsplash
+-   SCSS
 
 ## Sitemap
 
 ```mermaid
-flowchart TB
-
-Home
+flowchart TB;
+	Home-->About;
+	Home-->TheTeam[The Team];
+	Home-->OurInvestigations[Our Investigations];
+	Home-->Resources;
+	Home-->ContactUs[Contact Us];
+	Resources-->Spirits
+	Resources-->Technologies
+	Resources-->UFOs
+	Resources-->Cryptids
 ```
