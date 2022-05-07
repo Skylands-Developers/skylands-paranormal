@@ -7,6 +7,7 @@ export function Navigation() {
 	const navClasses = ["navigation", navIsOpen ? active : undefined]
 		.filter(Boolean)
 		.join(" ");
+
 	return (
 		<>
 			<img
