@@ -1,0 +1,20 @@
+@import "colors";
+@import "anims";
+
+.home {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.sp-banner {
+		opacity: 0;
+		animation: $appear;
+	}
+}
+@media only screen and (max-width: 950px) {
+	.home {
+		.sp-banner {
+			width: 75%;
+		}
+	}
+}

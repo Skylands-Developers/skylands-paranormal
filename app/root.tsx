@@ -8,10 +8,16 @@ import {
 	ScrollRestoration,
 } from "@remix-run/react";
 import { Navigation } from "./navigation";
-import styles from "./styles/sp.css";
+import home_styles from "./styles/home.css";
+import nav_styles from "./styles/navigation.css";
+import main_styles from "./styles/sp.css";
 
 export const links: LinksFunction = () => {
-	return [{ rel: "stylesheet", href: styles }];
+	return [
+		{ rel: "stylesheet", href: main_styles },
+		{ rel: "stylesheet", href: nav_styles },
+		{ rel: "stylesheet", href: home_styles },
+	];
 };
 
 export const meta: MetaFunction = () => ({
