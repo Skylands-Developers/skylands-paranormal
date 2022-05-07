@@ -7,6 +7,7 @@ import {
 	Scripts,
 	ScrollRestoration,
 } from "@remix-run/react";
+import { Navigation } from "./navigation";
 import styles from "./styles/sp.css";
 
 export const links: LinksFunction = () => {
@@ -27,6 +28,7 @@ export default function App() {
 				<Links />
 			</head>
 			<body>
+				<Navigation />
 				<Outlet />
 				<ScrollRestoration />
 				<Scripts />

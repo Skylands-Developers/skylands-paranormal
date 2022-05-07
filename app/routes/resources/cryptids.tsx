@@ -1,8 +1,8 @@
 import { Outlet } from "remix";
 
-export default function Ufos() {
+export default function Cryptids() {
 	return (
-		<div className="ufos">
+		<div className="cryptids">
 			<Outlet />
 		</div>
 	);

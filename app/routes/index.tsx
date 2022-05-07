@@ -1,10 +1,14 @@
-import { GlobalNav } from "../nav";
+import { Outlet } from "remix";
 
 export default function Index() {
 	return (
 		<div className="home">
-			<GlobalNav />
-			<p>Hello World</p>
+			<Outlet />
+			<img
+				className="sp-banner"
+				alt="skylands paranormal"
+				src="../../static/media/logos/skylands-paranormal-logo-white.png"
+			/>
 		</div>
 	);
 }
