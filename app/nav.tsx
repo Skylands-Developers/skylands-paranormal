@@ -1,26 +1,26 @@
-import { Link } from "@remix-run/react";
+import { NavLink } from "@remix-run/react";
 
 export function GlobalNav() {
 	return (
-		<nav>
-			<Link prefetch="intent" to="/">
+		<nav className="global-nav">
+			<NavLink prefetch="intent" to="/" end>
 				Home
-			</Link>
-			<Link prefetch="intent" to="/about">
+			</NavLink>
+			<NavLink prefetch="intent" to="/about">
 				About
-			</Link>
-			<Link prefetch="intent" to="/team">
+			</NavLink>
+			<NavLink prefetch="intent" to="/team">
 				The Team
-			</Link>
-			<Link prefetch="intent" to="/investigations">
+			</NavLink>
+			<NavLink prefetch="intent" to="/investigations">
 				Our Investigations
-			</Link>
-			<Link prefetch="intent" to="/resources">
+			</NavLink>
+			<NavLink prefetch="intent" to="/resources" end>
 				Resources
-			</Link>
-			<Link prefetch="intent" to="/contact">
+			</NavLink>
+			<NavLink prefetch="intent" to="/contact">
 				Contact Us
-			</Link>
+			</NavLink>
 		</nav>
 	);
 }

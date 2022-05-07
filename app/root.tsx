@@ -7,26 +7,26 @@ import {
 	Scripts,
 	ScrollRestoration,
 } from "@remix-run/react";
-import globalStylesheetUrl from "./styles/global-styles.css";
+import styles from "./styles/sp.css";
 
 export const links: LinksFunction = () => {
-	return [{ rel: "stylesheet", href: globalStylesheetUrl }];
+	return [{ rel: "stylesheet", href: styles }];
 };
 
 export const meta: MetaFunction = () => ({
 	charset: "utf-8",
-	title: "Remix Notes",
+	title: "Skylands Paranormal",
 	viewport: "width=device-width,initial-scale=1",
 });
 
 export default function App() {
 	return (
-		<html lang="en" className="h-full">
+		<html lang="en">
 			<head>
 				<Meta />
 				<Links />
 			</head>
-			<body className="h-full">
+			<body>
 				<Outlet />
 				<ScrollRestoration />
 				<Scripts />
