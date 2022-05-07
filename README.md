@@ -27,3 +27,29 @@ flowchart TB;
 	Resources--/ufos-->UFOs
 	Resources--/cryptids-->Cryptids
 ```
+
+## Designs
+
+### Home
+
+![home](./designs/home.png)
+
+### About
+
+![home](./designs/about.png)
+
+### The Team
+
+![home](./designs/team.png)
+
+### Our Investigations
+
+![home](./designs/investigations.png)
+
+### Resources
+
+![home](./designs/resources.png)
+
+### Contact
+
+![home](./designs/contact.png)
