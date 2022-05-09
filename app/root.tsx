@@ -17,6 +17,10 @@ export const links: LinksFunction = () => {
 		{ rel: "stylesheet", href: main_styles },
 		{ rel: "stylesheet", href: nav_styles },
 		{ rel: "stylesheet", href: home_styles },
+		{
+			rel: "stylesheet",
+			href: "https://fonts.googleapis.com/css?family=Montserrat",
+		},
 	];
 };
 

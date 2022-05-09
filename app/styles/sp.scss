@@ -8,7 +8,10 @@
 	font-style: normal;
 }
 
-html,
+html {
+	font-family: "Montserrat", "uglyquaregular", sans-serif;
+	font-size: 16px;
+}
 body {
 	height: 100vh;
 	width: 100vw;
@@ -16,9 +19,8 @@ body {
 	margin: 0;
 	overflow: hidden;
 	background-color: $background;
+	color: $foreground;
 	background-image: url("../../static/media/bgs/SPBG_2.jpg");
-	font-family: "Montserrat", "uglyquaregular", sans-serif;
-	font-size: 16px;
 }
 
 a {
@@ -31,4 +33,10 @@ a {
 	&.active {
 		box-shadow: inset 0 0 1px 1px $border;
 	}
+}
+
+hr {
+	width: 85%;
+	margin: 3em;
+	color: $border;
 }

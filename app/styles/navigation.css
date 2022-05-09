@@ -39,7 +39,7 @@
 		position: fixed;
 		width: 300px;
 		left: calc(-300px - 4rem);
-		background-color: #333;
+		background-color: #121212;
 		flex-wrap: wrap !important;
 		justify-content: space-evenly !important;
 		align-items: flex-start !important;
