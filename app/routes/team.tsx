@@ -52,7 +52,8 @@ export default function Team() {
 			<hr />
 			<section>
 				<img
-					alt="Team Banner (outside White Hill Mansion)"
+					alt="The team at White Hill Mansion, Fieldsboro, NJ 2019"
+					title="The team outside White Hill Mansion in Fieldsboro, NJ 2019"
 					width={"100%"}
 					src="static/media/profiles/team_banner.jpg"
 				/>
@@ -67,11 +68,12 @@ export default function Team() {
 						{/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
 						<img
 							alt={`Profile picture of ${member.name}`}
+							title={`Profile picture of ${member.name}`}
 							src={`static/media/profiles/${member.name.toLowerCase()}.jpg`}
 						/>
 						<h2>{member.name}</h2>
 						<p>
-							<i>{member.titles.join(",")}</i>
+							<i>{member.titles.join(", ")}</i>
 						</p>
 					</div>
 				))}
