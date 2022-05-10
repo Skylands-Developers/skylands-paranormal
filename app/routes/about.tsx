@@ -1,8 +1,9 @@
 import type { LinksFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
+import pageStyle from "../styles/page.css";
 
 export const links: LinksFunction = () => {
-	return [{ rel: "stylesheet", href: require("../styles/page.css") }];
+	return [{ rel: "stylesheet", href: pageStyle }];
 };
 
 type ParanormalPersonality = {

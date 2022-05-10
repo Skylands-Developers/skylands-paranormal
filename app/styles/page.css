@@ -18,29 +18,38 @@
 	overflow: auto;
 	animation: 1s ease-in 0s forwards appear;
 }
-.page::before {
-	pointer-events: all;
-	z-index: 0;
-	position: absolute;
-	top: 48px;
-	left: 0;
-	content: "";
-	margin: 2rem;
-	height: calc(100% - 4rem - 48px);
-	width: calc(100% - 4rem);
-	border-radius: 16px;
-	background-color: rgba(18, 18, 18, 0.5);
-}
-.page div {
-	width: 80%;
-}
 .page * {
 	z-index: 1;
+}
+.page img {
+	border-radius: 4px;
 }
 .page h1,
 .page h2 {
 	font-family: "uglyquaregular";
 	align-items: flex-start;
+}
+.page .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.page .gallery div {
+	margin: 0 4rem;
+}
+.page .gallery img {
+	display: block;
+	max-width: 100%;
+	max-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	object-fit: scale-down;
+	background-color: green;
 }
 .page table {
 	width: 70%;
