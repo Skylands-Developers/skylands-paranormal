@@ -12,8 +12,8 @@ export function Navigation() {
 		<>
 			<img
 				className="sp-logo"
-				alt="sp"
-				src="../../static/media/logos/skylands-paranormal-logo-white_SP.png"
+				alt="Skylands Paranormal Logo"
+				src="../../static/media/logos/skylands-paranormal-logo-color.svg"
 				width={48}
 				onClick={(
 					event: React.MouseEvent<HTMLImageElement, MouseEvent>

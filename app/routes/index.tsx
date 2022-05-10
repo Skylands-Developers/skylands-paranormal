@@ -6,8 +6,8 @@ export default function Index() {
 			<Outlet />
 			<img
 				className="sp-banner"
-				alt="skylands paranormal"
-				src="../../static/media/logos/skylands-paranormal-logo-white.png"
+				alt="Skylands Paranormal Logo"
+				src="../../static/media/logos/skylands-paranormal-logo-color.svg"
 			/>
 		</div>
 	);
