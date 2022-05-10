@@ -19,24 +19,23 @@ body {
 	margin: 0;
 	overflow: hidden;
 	background-color: $background;
-	color: $foreground;
-	background-image: url("../../static/media/bgs/SPBG_2.jpg");
+	color: $color;
 }
 
 a {
 	font-family: "Montserrat", sans-serif;
 	font-size: 0.85rem;
-	color: $foreground;
+	color: $color;
 	text-decoration: none;
 	text-transform: uppercase;
 
 	&.active {
-		box-shadow: inset 0 0 1px 1px $border;
+		box-shadow: inset 0 0 1px 1px $yellow_400;
 	}
 }
 
 hr {
 	width: 85%;
 	margin: 3em;
-	color: $border;
+	color: $yellow_400;
 }

@@ -1,3 +1,22 @@
-$background: #121212;
-$foreground: #ddd;
-$border: #fafafa;
+//yellow
+//For distinct elements and color overlays
+$yellow_800: #FFCA57;
+$yellow_400: #F9D384;
+$yellow_300: #F6D99D;
+$yellow_100: #EFE7D5;
+
+//purple
+//For backgrounds
+$purple_800: #4B3A84;
+$purple_600: #5F4E8D;
+$purple_500: #706096;
+$purple_400: #836C91;
+
+//dark gray
+//For backgrounds
+$darkgray_800: #231F20;
+$darkgray_400: #4B4B4C;
+$darkgray_300: #656566;
+
+$background: #231F20;
+$color: $yellow_100;

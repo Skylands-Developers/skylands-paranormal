@@ -113,3 +113,9 @@ dist
 
 # Generated flattened CSS
 app/styles/*.css*
+
+# MacOS
+.DS_Store
+
+# VS Code
+.vscode/**/*

@@ -6,15 +6,17 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 	.sp-banner {
 		opacity: 0;
 		animation: $appear;
+		width: 33%;
 	}
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 760px) {
 	.home {
 		.sp-banner {
-			width: 75%;
+			width: 66%;
 		}
 	}
 }

@@ -1,1 +1,0 @@
-@keyframes appear{from{opacity:0}to{opacity:1}}.home{height:100%;display:flex;justify-content:center;align-items:center}.home .sp-banner{opacity:0;animation:250ms ease-in 0s forwards appear}@media only screen and (max-width: 950px){.home .sp-banner{width:75%}}/*# sourceMappingURL=home.css.map */
