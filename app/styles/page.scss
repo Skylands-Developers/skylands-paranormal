@@ -13,19 +13,19 @@
 	overflow: auto;
 	animation: $appear;
 
-	&::before {
-		pointer-events: all;
-		z-index: 0;
-		position: absolute;
-		top: 48px;
-		left: 0;
-		content: "";
-		margin: 2rem;
-		height: calc(100% - 4rem - 48px);
-		width: calc(100% - 4rem);
-		border-radius: 16px;
-		background-color: adjust-color($background, $alpha: -0.5);
-	}
+	// &::before {
+	// 	pointer-events: all;
+	// 	z-index: 0;
+	// 	position: absolute;
+	// 	top: 48px;
+	// 	left: 0;
+	// 	content: "";
+	// 	margin: 2rem;
+	// 	height: calc(100% - 4rem - 48px);
+	// 	width: calc(100% - 4rem);
+	// 	border-radius: 16px;
+	// 	background-color: adjust-color($background, $alpha: -0.5);
+	// }
 
 	div {
 		width: 80%;
@@ -40,6 +40,7 @@
 		font-family: "uglyquaregular";
 		align-items: flex-start;
 	}
+
 	table {
 		width: 70%;
 
