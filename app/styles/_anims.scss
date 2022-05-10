@@ -1,3 +1,5 @@
+$animation_time: 250ms;
+
 @keyframes appear {
 	from {
 		opacity: 0;
@@ -7,4 +9,4 @@
 	}
 }
 
-$appear: 250ms ease-in 0s forwards appear;
+$appear: $animation_time ease-in 0s forwards appear;
