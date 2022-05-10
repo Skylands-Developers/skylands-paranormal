@@ -4,27 +4,24 @@ import { useState } from "react";
 export function Navigation() {
 	const [navIsOpen, setNavIsOpen] = useState(false);
 	const active = "active";
-	const navClasses = ["navigation", navIsOpen ? active : undefined]
+	const navClasses = [navIsOpen ? active : undefined]
 		.filter(Boolean)
 		.join(" ");
 
 	return (
 		<>
-			<img
+			<a 
 				className="sp-logo"
+				href="/"
+			>
+			<img
+				
 				alt="Skylands Paranormal Logo"
+				title="Skylands Paranormal Logo"
 				src="../../static/media/logos/skylands-paranormal-logo-color.svg"
-				width={48}
-				onClick={(
-					event: React.MouseEvent<HTMLImageElement, MouseEvent>
-				) => {
-					event.preventDefault();
-					if (window.innerWidth <= 500) {
-						//mobile
-						setNavIsOpen(!navIsOpen);
-					}
-				}}
+				
 			/>
+			</a>
 			<nav className={navClasses}>
 				<NavLink
 					prefetch="intent"
@@ -101,6 +98,21 @@ export function Navigation() {
 					Contact Us
 				</NavLink>
 			</nav>
+			<div 
+				className="nav-trigger"
+				title="Navigation Menu"
+				onClick={(
+					event: React.MouseEvent<HTMLImageElement, MouseEvent>
+				) => {
+					event.preventDefault();
+					if (window.innerWidth <= 960) {
+						//mobile
+						setNavIsOpen(!navIsOpen);
+					}
+				}}
+			>
+				<span>Menu</span>
+			</div>
 		</>
 	);
 }
