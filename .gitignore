@@ -110,3 +110,6 @@ dist
 # Testing
 /cypress/screenshots
 /cypress/videos
+
+# Generated flattened CSS
+app/styles/*.css*
