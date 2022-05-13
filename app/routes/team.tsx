@@ -13,19 +13,19 @@ type TeamMember = {
 const teamMembers: TeamMember[] = [
 	{
 		name: "Jason",
-		titles: ["Founder"],
+		titles: ["Founder", "Lead Investigator"],
 	},
 	{
 		name: "Dean",
-		titles: ["Co-Lead Investigator"],
+		titles: ["Lead Investigator"],
 	},
 	{
 		name: "Evan",
-		titles: ["Co-Lead Investigator", "Tech Lead"],
+		titles: ["Investigator", "Tech Lead"],
 	},
 	{
 		name: "Brian",
-		titles: ["Co-Lead Investigator", "Researcher"],
+		titles: ["Investigator", "Researcher"],
 	},
 	{
 		name: "Sarah",

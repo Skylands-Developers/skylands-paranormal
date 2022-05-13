@@ -3,29 +3,16 @@
 
 .page {
 	text-align: left;
-	margin: 3rem;
-	height: calc(100% - 6rem - 48px);
-	width: calc(100% - 6rem);
+	margin: 0;
+	padding: 1rem;
+	height: calc(100% - 2rem - 48px);
+	width: calc(100% - 2rem);
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	overflow: auto;
+	overflow: hidden auto;
 	animation: $appear;
-
-	// &::before {
-	// 	pointer-events: all;
-	// 	z-index: 0;
-	// 	position: absolute;
-	// 	top: 48px;
-	// 	left: 0;
-	// 	content: "";
-	// 	margin: 2rem;
-	// 	height: calc(100% - 4rem - 48px);
-	// 	width: calc(100% - 4rem);
-	// 	border-radius: 16px;
-	// 	background-color: adjust-color($background, $alpha: -0.5);
-	// }
 
 	* {
 		z-index: 1;
@@ -45,24 +32,26 @@
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		align-items: center;
+		max-width: 65vw;
 
 		div {
-			margin: 0 4rem;
+			flex-grow: 1;
+			flex-basis: auto;
+			text-align: center;
 		}
 
 		img {
 			display: block;
-			max-width: 100%;
-			max-height: 300px;
 			margin-left: auto;
 			margin-right: auto;
+			min-width: 300px;
+			max-height: 300px;
 			width: auto;
-			height: auto;
 			overflow: hidden;
 			object-fit: scale-down;
-			background-color: green;
+			background-color: transparent;
 		}
 	}
 
