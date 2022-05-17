@@ -1,8 +1,8 @@
 import { Outlet } from "@remix-run/react";
 
-export default function Investigations() {
+export default function Cases() {
 	return (
-		<div className="investigations">
+		<div className="page cases">
 			<Outlet />
 		</div>
 	);

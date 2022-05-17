@@ -62,7 +62,7 @@ export function Navigation() {
 				</NavLink>
 				<NavLink
 					prefetch="intent"
-					to="/investigations"
+					to="/cases"
 					className={({ isActive }) =>
 						isActive ? active : undefined
 					}
@@ -70,7 +70,7 @@ export function Navigation() {
 						setNavIsOpen(false);
 					}}
 				>
-					Our Investigations
+					Our Cases
 				</NavLink>
 				<NavLink
 					prefetch="intent"

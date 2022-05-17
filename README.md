@@ -19,7 +19,7 @@ Originally designed via [Weebly](https://www.weebly.com/), this project aims to 
 flowchart TB;
 	Home--/about-->About;
 	Home--/team-->TheTeam[The Team];
-	Home--/investigations-->OurInvestigations[Our Investigations];
+	Home--/cases-->OurCases[Our Cases];
 	Home--/resources-->Resources;
 	Home--/contact-->ContactUs[Contact Us];
 	Resources--/spirits-->Spirits
@@ -42,9 +42,9 @@ flowchart TB;
 
 ![home](./designs/team.png)
 
-### Our Investigations
+### Our Cases
 
-![home](./designs/investigations.png)
+![home](./designs/cases.png)
 
 ### Resources
 
