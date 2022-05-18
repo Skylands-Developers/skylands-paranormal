@@ -4,7 +4,8 @@
 .sp-logo {
 	opacity: 0;
 	position: fixed;
-	left: 2rem;
+	left: 1rem;
+	top: 1rem;
 	z-index: 101;
 	width: 3rem;
 	animation: $appear;
@@ -28,7 +29,7 @@ nav {
 .nav-trigger {
 	position: absolute;
 	pointer-events: none;
-	top: 1rem;
+	top: 2rem;
 	right: 2rem;
 	line-height: 1;
 	cursor: pointer;
@@ -40,27 +41,28 @@ nav {
 	.sp-logo {
 		cursor: pointer;
 	}
-	
+
 	nav {
+		overflow: hidden auto;
 		padding: 3rem 2rem;
 		margin-top: 0px !important;
 		height: 100%;
 		position: fixed;
-		width: 300px;
-		left: calc(-300px - 4rem);
+		width: 200px;
+		right: calc(-200px - 4rem);
 		background-color: $background;
-		flex-wrap: wrap !important;
-		justify-content: space-evenly !important;
-		align-items: flex-start !important;
+		display: block !important;
 		transition: 0.3s;
+		box-shadow: 0px 0px 10px 10px $background;
 
 		&.active {
-			left: 0px;
+			right: 0px;
 		}
 
 		a {
+			margin: 1rem auto;
+			display: block;
 			font-size: 1rem;
-			width: 100%;
 		}
 	}
 

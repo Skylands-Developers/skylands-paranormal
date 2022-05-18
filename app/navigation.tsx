@@ -1,4 +1,4 @@
-import { NavLink } from "@remix-run/react";
+import { Link, NavLink } from "@remix-run/react";
 import { useState } from "react";
 
 export function Navigation() {
@@ -10,18 +10,13 @@ export function Navigation() {
 
 	return (
 		<>
-			<a 
-				className="sp-logo"
-				href="/"
-			>
-			<img
-				
-				alt="Skylands Paranormal Logo"
-				title="Skylands Paranormal Logo"
-				src="../../static/media/logos/skylands-paranormal-logo-color.svg"
-				
-			/>
-			</a>
+			<Link className="sp-logo" to="/">
+				<img
+					alt="Skylands Paranormal Logo"
+					title="Skylands Paranormal Logo"
+					src="../../static/media/logos/skylands-paranormal-logo-color.svg"
+				/>
+			</Link>
 			<nav className={navClasses}>
 				<NavLink
 					prefetch="intent"
@@ -98,7 +93,7 @@ export function Navigation() {
 					Contact Us
 				</NavLink>
 			</nav>
-			<div 
+			<div
 				className="nav-trigger"
 				title="Navigation Menu"
 				onClick={(
