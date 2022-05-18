@@ -75,16 +75,7 @@ export function CatchBoundary() {
 					<span>{caught ? caught.statusText : ""}</span>
 					<p>
 						Looks like you got lost in the dark! Let's head back to{" "}
-						<Link
-							to="/"
-							style={{
-								textDecoration: "underline",
-								textTransform: "none",
-							}}
-						>
-							base camp
-						</Link>
-						.
+						<Link to="/">base camp</Link>.
 					</p>
 				</section>
 			</div>

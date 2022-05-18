@@ -31,27 +31,37 @@
 	.gallery {
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		max-width: 65vw;
+
+		&.columns {
+			flex-direction: column;
+		}
+		&.rows {
+			flex-direction: row;
+		}
 
 		div {
 			flex-grow: 1;
 			flex-basis: auto;
 			text-align: center;
+
+			img {
+				margin-left: auto;
+				margin-right: auto;
+			}
 		}
 
 		img {
 			display: block;
-			margin-left: auto;
-			margin-right: auto;
+			margin-left: 16px;
+			margin-right: 16px;
 			min-width: 300px;
 			max-height: 300px;
 			width: auto;
 			overflow: hidden;
 			object-fit: scale-down;
-			background-color: transparent;
+			background-color: $background;
 		}
 	}
 

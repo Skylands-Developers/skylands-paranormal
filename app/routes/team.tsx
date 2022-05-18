@@ -54,7 +54,6 @@ export default function Team() {
 				<img
 					alt="The team at White Hill Mansion, Fieldsboro, NJ 2019"
 					title="The team outside White Hill Mansion in Fieldsboro, NJ 2019"
-					width={"100%"}
 					src="static/media/profiles/team_banner.jpg"
 				/>
 				<p style={{ textAlign: "center" }}>
@@ -62,7 +61,7 @@ export default function Team() {
 				</p>
 			</section>
 			<hr />
-			<section className="gallery">
+			<section className="gallery" style={{ maxWidth: "65vw" }}>
 				{teamMembers.map((member) => (
 					<div key={member.name}>
 						{/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}

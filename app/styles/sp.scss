@@ -26,12 +26,14 @@ a {
 	font-family: "Montserrat", sans-serif;
 	font-size: 0.85rem;
 	color: $color;
-	text-decoration: none;
-	text-transform: uppercase;
 
 	&.active {
 		box-shadow: inset 0 0 1px 1px $yellow_400;
 	}
+}
+
+section {
+	max-width: 85%;
 }
 
 hr {

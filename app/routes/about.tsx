@@ -53,9 +53,15 @@ export default function About() {
 					Skylands Paranormal is a team of paranormal investigators
 					who share interest in haunted investigations and ufology.
 				</p>
+			</section>
+			<section className="gallery">
 				<img
-					alt="fog driving"
+					alt="Driving through the fog"
 					src="static/media/misc/photo-1565539662021-d2598c11f85a.jpg"
+				/>
+				<img
+					alt="mansion"
+					src="static/media/misc/photo-1542071519-65d063713e4e.jpg"
 				/>
 			</section>
 			<section>
