@@ -53,10 +53,10 @@ nav {
 		background-color: $background;
 		display: block !important;
 		transition: 0.3s;
-		box-shadow: 0px 0px 10px 10px $background;
 
 		&.active {
 			right: 0px;
+			box-shadow: 0px 0px 10px 10px $background;
 		}
 
 		a {
