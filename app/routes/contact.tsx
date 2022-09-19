@@ -1,4 +1,5 @@
 import type { LinksFunction } from "@remix-run/node";
+import type { FormEvent } from "react";
 import { useState } from "react";
 import formStyle from "../styles/form.css";
 import pageStyle from "../styles/page.css";
@@ -14,35 +15,35 @@ export default function Contact() {
 	const [email, setEmail] = useState<string>("");
 	const [message, setMessage] = useState<string>("");
 
-	// const handleSubmit = async (e: FormEvent) => {
-	// 	e.preventDefault();
-	// 	const payload = JSON.stringify({ name, email, message }, null, 2);
-	// 	console.log("submit: ", payload);
+	const handleSubmit = async (e: FormEvent) => {
+		e.preventDefault();
+		const payload = JSON.stringify({ name, email, message }, null, 2);
+		console.log("submit: ", payload);
 
-	// 	fetch("mailto:evjero.git@gmail.com", {
-	// 		method: "POST",
-	// 		headers: {
-	// 			"Content-Type": "application/json",
-	// 		},
-	// 		body: payload,
-	// 	})
-	// 		.then((res) => {
-	// 			console.log("res: ", JSON.stringify(res.json()));
-	// 		})
-	// 		.catch((rej) => {
-	// 			alert(
-	// 				"Message failed to send, please try again, or email us directly at skylandsparanormal@gmail.com"
-	// 			);
-	// 			console.error("Message failed to send", {
-	// 				payload,
-	// 				reason: rej,
-	// 			});
-	// 		});
-	// };
+		fetch("mailto:evjero.git@gmail.com", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: payload,
+		})
+			.then((res) => {
+				console.log("res: ", JSON.stringify(res.json()));
+			})
+			.catch((rej) => {
+				alert(
+					"Message failed to send, please try again, or email us directly at skylandsparanormal@gmail.com"
+				);
+				console.error("Message failed to send", {
+					payload,
+					reason: rej,
+				});
+			});
+	};
 
 	return (
 		<div className="page contact">
-			<a href="mailto:test@test.com?cc=myemail@gmail.com&subject=Skylands%20Paranormal%20Contact%3A%20First%20Last&body=message%20body%20here">
+			<a href="mailto:evjero.git@gmail.com?cc=evjero.git@gmail.com&subject=Skylands%20Paranormal%20Contact%3A%20First%20Last&body=message%20body%20here">
 				Link text
 			</a>
 			<h1>Contact Us</h1>
