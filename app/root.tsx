@@ -11,6 +11,7 @@ import {
 } from "@remix-run/react";
 import type { ReactNode } from "react";
 import { Navigation } from "./navigation";
+import { initFirebase } from "./firebase";
 import home_styles from "./styles/home.css";
 import nav_styles from "./styles/navigation.css";
 import main_styles from "./styles/sp.css";
@@ -46,6 +47,8 @@ function Document({ children }: { children: ReactNode }) {
 }
 
 export default function App() {
+	initFirebase();
+	
 	return (
 		<Document>
 			<header>
