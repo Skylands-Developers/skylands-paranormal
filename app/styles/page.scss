@@ -1,6 +1,13 @@
 @import "colors";
 @import "anims";
 
+@media only screen and (max-width: 960px) {
+	.page {
+		position: absolute;
+		top: 64px;
+	}
+}
+
 .page {
 	text-align: left;
 	margin: 0;
@@ -19,12 +26,13 @@
 	}
 
 	img {
+		width: 100%;
 		border-radius: 4px;
 	}
 
 	h1,
 	h2 {
-		font-family: "uglyquaregular";
+		font-family: "Montserrat", Arial, sans-serif;
 		align-items: flex-start;
 	}
 
@@ -42,7 +50,7 @@
 		}
 
 		div {
-			flex-grow: 1;
+			flex: 1 0 auto;
 			flex-basis: auto;
 			text-align: center;
 
@@ -56,12 +64,17 @@
 			display: block;
 			margin-left: 16px;
 			margin-right: 16px;
+			margin-top: 16px;
 			min-width: 300px;
 			max-height: 300px;
 			width: auto;
 			overflow: hidden;
 			object-fit: scale-down;
 			background-color: $background;
+		}
+
+		&.investigations div {
+			margin: 16px;
 		}
 	}
 

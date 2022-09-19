@@ -73,15 +73,20 @@ export default function About() {
 					We at Skylands Paranormal have been interested in the field
 					for decades. Investigations on the team date back to the
 					1970's, yielding some inexplicable personal experiences that
-					relate to what we now know as the paranormal. Knowledge of
-					the field was not as widely known as it is today, as more
-					public media is being documented. Our understanding of the
-					paranormal field will continue to grow, and it is our
-					mission to document our experiences and share the knowledge
-					with others. Since 2007, the team has been attending
-					paranormal events and investigations all around the United
-					States. See all of our investigations and collected
-					findings/evidence <Link to="/cases">here</Link>.
+					relate to what we now know as the paranormal.
+				</p>
+				<p>
+					Knowledge of the field was not as widely known as it is
+					today, as more public media is being documented. Our
+					understanding of the paranormal field will continue to grow,
+					and it is our mission to document our experiences and share
+					the knowledge with others.{" "}
+				</p>
+				<p>
+					Since 2007, the team has been attending paranormal events
+					and investigations all around the United States. See all of
+					our investigations and collected findings/evidence{" "}
+					<Link to="/cases">here</Link>.
 				</p>
 			</section>
 			<hr />
