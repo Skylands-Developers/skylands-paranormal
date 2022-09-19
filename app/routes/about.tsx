@@ -41,6 +41,10 @@ const personalities: ParanormalPersonality[] = [
 		name: "Weird Lecture's",
 		members: ["John E. L. Tenney"],
 	},
+	{
+		name: "Holzer Files'",
+		members: ["Dave Schrader"]
+	},
 ];
 
 export default function About() {
