@@ -1,15 +1,8 @@
 @import "colors";
 @import "anims";
 
-@font-face {
-	font-family: "uglyquaregular";
-	src: url("./UglyQua-webfont.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-}
-
 html {
-	font-family: "Montserrat", "uglyquaregular", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
 }
 body {
