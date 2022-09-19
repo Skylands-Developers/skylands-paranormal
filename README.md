@@ -38,12 +38,6 @@ flowchart TB;
 
 ![home](./designs/about.png)
 
-## Deploying
-
-1. firebase login
-2. firebase init
-3. firebase deploy
-
 ### The Team
 
 ![home](./designs/team.png)
