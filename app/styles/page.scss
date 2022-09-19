@@ -5,6 +5,10 @@
 	.page {
 		position: absolute;
 		top: 64px;
+
+		.dialog {
+			overflow: auto !important;
+		}
 	}
 }
 
@@ -21,9 +25,9 @@
 	overflow: hidden auto;
 	animation: $appear;
 
-	* {
-		z-index: 1;
-	}
+	// * {
+	// 	z-index: 1;
+	// }
 
 	img {
 		width: 100%;
@@ -49,7 +53,7 @@
 			flex-direction: row;
 		}
 
-		div {
+		div:not(.dialog) {
 			flex: 1 0 auto;
 			flex-basis: auto;
 			text-align: center;
@@ -91,6 +95,33 @@
 			&:nth-child(even) {
 				text-align: right;
 			}
+		}
+	}
+
+	.dialog {
+		display: none;
+		z-index: 120;
+		position: fixed;
+		top: 64px;
+		left: 0px;
+		overflow: hidden;
+		width: 80vw;
+		height: 80vh;
+		box-shadow: 0px 0px 10px 10px $background;
+		background: $background;
+		border: none;
+		animation: $appearFaster;
+
+		&.active {
+			display: block;
+		}
+
+		img {
+			z-index: 121;
+			margin-left: auto;
+			margin-right: auto;
+			max-height: 90vh;
+			width: auto !important;
 		}
 	}
 }

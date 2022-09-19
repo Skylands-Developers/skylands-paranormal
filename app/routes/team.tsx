@@ -1,4 +1,5 @@
 import type { LinksFunction } from "@remix-run/node";
+import { useState } from "react";
 import pageStyle from "../styles/page.css";
 
 export const links: LinksFunction = () => {
@@ -46,22 +47,37 @@ const teamMembers: TeamMember[] = [
 ];
 
 export default function Team() {
+	const [isFullscreen, setIsFullscreen] = useState(false);
+	const handleFullscreen = () => {
+		setIsFullscreen(!isFullscreen);
+	};
+	const bannerImage = (
+		<img
+			alt="The team at White Hill Mansion, Fieldsboro, NJ 2019"
+			title="The team outside White Hill Mansion in Fieldsboro, NJ 2019"
+			src="static/media/profiles/team_banner.jpg"
+			onClick={handleFullscreen}
+		/>
+	);
 	return (
 		<div className="page team">
 			<h1>The Team</h1>
 			<hr />
 			<section>
-				<img
-					alt="The team at White Hill Mansion, Fieldsboro, NJ 2019"
-					title="The team outside White Hill Mansion in Fieldsboro, NJ 2019"
-					src="static/media/profiles/team_banner.jpg"
-				/>
+				{bannerImage}
 				<p style={{ textAlign: "center" }}>
 					<i>The team at White Hill Mansion, Fieldsboro, NJ 2019</i>
 				</p>
+				<dialog
+					className={isFullscreen ? "dialog active" : "dialog"}
+					open={isFullscreen}
+					onClick={() => handleFullscreen()}
+				>
+					{bannerImage}
+				</dialog>
 			</section>
 			<hr />
-			<section className="gallery" style={{ maxWidth: "65vw" }}>
+			<section className="gallery">
 				{teamMembers.map((member) => (
 					<div key={member.name}>
 						{/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}

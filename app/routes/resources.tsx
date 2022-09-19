@@ -1,5 +1,4 @@
 import type { LinksFunction } from "@remix-run/node";
-import { Outlet } from "@remix-run/react";
 import pageStyle from "../styles/page.css";
 
 export const links: LinksFunction = () => {
@@ -7,8 +6,8 @@ export const links: LinksFunction = () => {
 };
 export default function Resources() {
 	return (
-		<div className="resources">
-			<Outlet />
+		<div className="page resources">
+			<h1>Under construction!</h1>
 		</div>
 	);
 }
