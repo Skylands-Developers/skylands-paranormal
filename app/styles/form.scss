@@ -1,0 +1,57 @@
+@import "colors";
+
+form {
+	display: flex;
+	flex: 0 0 auto;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+	row-gap: 16px;
+
+	div {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	label,
+	button {
+		font-size: 1rem;
+		line-height: 1;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-top: 16px;
+	}
+
+	input,
+	textarea,
+	button {
+		outline: none;
+		background-color: $darkgray_800;
+		color: $yellow_100;
+		border: 1px solid $darkgray_300;
+		border-radius: 4px;
+		padding: 14px;
+		min-width: 25vw;
+		max-width: 50vw;
+
+		&:focus {
+			border-color: $yellow_400;
+		}
+	}
+
+	input#file-upload-button {
+		display: none;
+	}
+
+	button {
+		transition: background-color 200ms ease;
+
+		&:hover {
+			background-color: scale-color($darkgray_300, $lightness: -5%);
+		}
+		&:active {
+			background-color: scale-color($darkgray_300, $lightness: -10%);
+		}
+	}
+}
