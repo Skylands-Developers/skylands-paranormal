@@ -1,7 +1,7 @@
 import { ACase } from "./ACase";
 import baseUrl from "./baseUrl";
 
-export const Cases2018 = () => {
+export const C2018 = () => {
 	return (
 		<ACase
 			year={2018}
@@ -13,8 +13,9 @@ export const Cases2018 = () => {
 			images={[
 				{
 					src: `${baseUrl}/2018_pennhurst/1.jpg`,
-					alt: "",
-					description: "",
+					alt: "Team before the investigation",
+					description:
+						"Evan, Dean, Jason, Ashley, and Brian before the investigation",
 				},
 			]}
 		/>

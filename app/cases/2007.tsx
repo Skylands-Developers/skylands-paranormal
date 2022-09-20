@@ -1,7 +1,7 @@
 import { ACase } from "./ACase";
 import baseUrl from "./baseUrl";
 
-export const Cases2007 = () => {
+export const C2007 = () => {
 	return (
 		<ACase
 			year={2007}
@@ -13,13 +13,15 @@ export const Cases2007 = () => {
 			images={[
 				{
 					src: `${baseUrl}/2007_alcatraz_island/1.jpg`,
-					alt: "",
-					description: "",
+					alt: "Alcatraz Guard Tower",
+					description:
+						"A view of a guard tower watching for escapees",
 				},
 				{
 					src: `${baseUrl}/2007_alcatraz_island/2.jpg`,
-					alt: "",
-					description: "",
+					alt: "Alcatraz Cell Block D",
+					description:
+						"Peering into the isolation rooms of Cell Block D",
 				},
 			]}
 		/>

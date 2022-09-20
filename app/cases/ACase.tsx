@@ -80,12 +80,13 @@ export function ACase(props: CaseProps): JSX.Element {
 					props.videos.length > 0 &&
 					props.videos.map((url) => (
 						<div key={url}>
-							<embed
+							<iframe
 								lang="en"
 								height="100%"
 								width="100%"
 								src={url}
-							></embed>
+								title={url}
+							/>
 						</div>
 					))}
 			</section>

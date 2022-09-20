@@ -1,7 +1,7 @@
 import { ACase } from "./ACase";
 import baseUrl from "./baseUrl";
 
-export const Cases1997 = () => {
+export const C1997 = () => {
 	return (
 		<ACase
 			year={1997}

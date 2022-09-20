@@ -1,7 +1,7 @@
 import { ACase } from "./ACase";
 import baseUrl from "./baseUrl";
 
-export const Cases2019 = () => {
+export const C2019 = () => {
 	return (
 		<ACase
 			year={2019}
@@ -12,54 +12,45 @@ export const Cases2019 = () => {
 			}}
 			images={[
 				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
+					src: `${baseUrl}/2019_mt_washington_hotel/1.png`,
+					alt: "Greg & Dana",
+					description: "Greg and Dana Newkirk hosting an EVP session",
 				},
 				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
+					src: `${baseUrl}/2019_mt_washington_hotel/2.jpeg`,
+					alt: "The Driveway",
+					description: "The cold drive leading up to the hotel",
 				},
 				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
+					src: `${baseUrl}/2019_mt_washington_hotel/3.jpeg`,
+					alt: "Entrance",
+					description: "The grand entrance of the hotel",
 				},
 				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
+					src: `${baseUrl}/2019_mt_washington_hotel/4.jpeg`,
+					alt: "Upper terrace",
+					description: "View looking out from the upper terrace",
 				},
 				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
+					src: `${baseUrl}/2019_mt_washington_hotel/5.jpg`,
+					alt: "Signed Book",
+					description: "Book signing by Chip Coffey",
 				},
 				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
+					src: `${baseUrl}/2019_mt_washington_hotel/8.jpeg`,
+					alt: "View of outside",
+					description: "View of the hotel in all its imposing glory",
 				},
 				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
+					src: `${baseUrl}/2019_mt_washington_hotel/9.jpeg`,
+					alt: "Hosts - 1",
+					description:
+						"Greg Newkirk, Dana Newkirk, Amy Bruni, Adam Berry, John E. L. Tenney (hosts)",
 				},
 				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
-				},
-				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
-				},
-				{
-					src: `${baseUrl}/2019_mt_washington_hotel/1.jpg`,
-					alt: "",
-					description: "",
+					src: `${baseUrl}/2019_mt_washington_hotel/10.jpeg`,
+					alt: "Hosts - 2",
+					description: "Maryann with Amy and Adam",
 				},
 			]}
 		/>

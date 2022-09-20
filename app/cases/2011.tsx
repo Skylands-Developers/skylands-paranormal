@@ -1,7 +1,7 @@
 import { ACase } from "./ACase";
 import baseUrl from "./baseUrl";
 
-export const Cases2011 = () => {
+export const C2011 = () => {
 	return (
 		<ACase
 			year={2011}
@@ -14,23 +14,23 @@ export const Cases2011 = () => {
 			images={[
 				{
 					src: `${baseUrl}/2011_fort_henry_kingston_ontario/1.jpg`,
-					alt: "",
-					description: "",
+					alt: "Wall View Sunset",
+					description: "An overlook of Kingston from the wall",
 				},
 				{
 					src: `${baseUrl}/2011_fort_henry_kingston_ontario/2.jpg`,
-					alt: "",
-					description: "",
+					alt: "Stairwell",
+					description: "A tight stairwell leading to upper ramparts",
 				},
 				{
 					src: `${baseUrl}/2011_fort_henry_kingston_ontario/3.jpg`,
-					alt: "",
+					alt: "Courtyard",
 					description: "",
 				},
 				{
 					src: `${baseUrl}/2011_fort_henry_kingston_ontario/4.jpg`,
-					alt: "",
-					description: "",
+					alt: "Hallway",
+					description: "Down the hallways leading near the dry ditch",
 				},
 			]}
 		/>
