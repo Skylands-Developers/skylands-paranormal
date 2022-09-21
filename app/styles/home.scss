@@ -11,7 +11,13 @@
 	.sp-banner {
 		opacity: 0;
 		animation: $appear;
+		cursor: pointer;
 		width: 33%;
+		border-radius: 50%;
+
+		&:hover {
+			box-shadow: 0px 0px 10px 0px $yellow_100;
+		}
 	}
 }
 @media only screen and (max-width: 768px) {
@@ -19,5 +25,21 @@
 		.sp-banner {
 			width: 66%;
 		}
+	}
+}
+@media only screen and (max-height: 428px) {
+	.home {
+		.sp-banner {
+			scale: 60%;
+		}
+	}
+}
+
+@keyframes shadow {
+	from {
+		box-shadow: 0px 0px 0px 0px $yellow_100;
+	}
+	to {
+		box-shadow: 0px 0px 10px 0px $yellow_100;
 	}
 }

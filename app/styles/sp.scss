@@ -15,10 +15,12 @@ body {
 	color: $color;
 }
 
-a {
+a,
+button {
 	font-family: "Montserrat", sans-serif;
 	font-size: 0.85rem;
 	color: $color;
+	cursor: pointer;
 
 	&.active {
 		box-shadow: inset 0 0 1px 1px $yellow_400;

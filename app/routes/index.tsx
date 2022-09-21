@@ -9,7 +9,7 @@ export default function Index() {
 			<img
 				className="sp-banner"
 				alt="Skylands Paranormal Logo"
-				src="../../static/media/logos/skylands-paranormal-logo-color.svg"
+				src="static/media/logos/skylands-paranormal-logo-color.svg"
 				onClick={() => {
 					navigate("/about");
 				}}

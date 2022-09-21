@@ -80,18 +80,21 @@ export function Navigation() {
 				>
 					Resources
 				</NavLink>
-				<NavLink
-					prefetch="intent"
-					to="/contact"
-					className={({ isActive }) =>
-						isActive ? active : undefined
-					}
+				<button
 					onClick={() => {
 						setNavIsOpen(false);
+						if (window.top) {
+							const email = "skylandsparanormal@gmail.com";
+							const subject =
+								"Skylands%20Paranormal%20Contact%20Request";
+							const body =
+								"Please%20include%20your%20name%20and%20details%20of%20your%20request";
+							window.top.location = `mailto:${email}?subject=${subject}&body=${body}`;
+						}
 					}}
 				>
 					Contact Us
-				</NavLink>
+				</button>
 			</nav>
 			<div
 				className="nav-trigger"

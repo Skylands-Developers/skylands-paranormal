@@ -9,6 +9,7 @@
 	z-index: 101;
 	width: 3rem;
 	animation: $appear;
+	cursor: pointer;
 }
 
 nav {
@@ -20,11 +21,18 @@ nav {
 	animation: $appear;
 	z-index: 99;
 
-	a {
+	a,
+	button {
 		padding: 0.5rem 1rem;
 		margin: 0.5rem 1rem;
 		text-decoration: none;
 		text-transform: uppercase;
+	}
+	button {
+		outline: none;
+		background: none;
+		border: none;
+		box-sizing: content-box;
 	}
 }
 
@@ -66,10 +74,12 @@ nav {
 			z-index: 1;
 		}
 
-		a {
+		a,
+		button {
 			margin: 1rem auto;
 			display: block;
 			font-size: 1rem;
+			margin-left: 0;
 		}
 	}
 
