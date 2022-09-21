@@ -61,9 +61,7 @@ export function ACase(props: CaseProps): JSX.Element {
 					return (
 						<div key={image.alt}>
 							{imageElement}
-							<p>
-								<i>{image.description}</i>
-							</p>
+							<p>{image.description}</p>
 							<dialog
 								className={
 									isActive ? "dialog active" : "dialog"

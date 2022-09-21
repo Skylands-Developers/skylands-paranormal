@@ -9,6 +9,14 @@
 		.dialog {
 			overflow: auto !important;
 		}
+
+		.gallery.investigations div {
+			width: calc(100% - 16px);
+
+			> img {
+				width: 100%;
+			}
+		}
 	}
 }
 
@@ -34,6 +42,8 @@
 	h2 {
 		font-family: "Montserrat", Arial, sans-serif;
 		align-items: flex-start;
+		word-wrap: break-word;
+		text-align: center;
 	}
 
 	.gallery {
@@ -71,6 +81,10 @@
 			overflow: hidden;
 			object-fit: scale-down;
 			background-color: $background;
+		}
+		img ~ p {
+			font-style: italic;
+			word-wrap: break-word;
 		}
 
 		&.investigations div {

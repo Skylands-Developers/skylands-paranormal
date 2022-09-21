@@ -30,7 +30,7 @@ const teamMembers: TeamMember[] = [
 	},
 	{
 		name: "Sarah",
-		titles: ["Spiritual Cleanser"],
+		titles: ["Investigator", "Spiritual Cleanser"],
 	},
 	{
 		name: "Ashley",

@@ -25,7 +25,8 @@ export const C2011 = () => {
 				{
 					src: `${baseUrl}/2011_fort_henry_kingston_ontario/3.jpg`,
 					alt: "Courtyard",
-					description: "",
+					description:
+						"A look at the courtyard from the West Officer's Quarters",
 				},
 				{
 					src: `${baseUrl}/2011_fort_henry_kingston_ontario/4.jpg`,
