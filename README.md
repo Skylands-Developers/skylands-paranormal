@@ -6,8 +6,8 @@ Originally designed via [Weebly](https://www.weebly.com/), this project aims to 
 
 -   DOM with React
 -   Ops via Remix
--   Photos from Unsplash
--   Styling with CSS
+-   Photos from Unsplash and team-sourced
+-   Styling with SCSS
 -   Code formatting with Prettier
 -   Linting with ESLint
 -   Static Types with TypeScript
@@ -21,7 +21,7 @@ flowchart TB;
 	Home--/team-->TheTeam[The Team];
 	Home--/cases-->OurCases[Our Cases];
 	Home--/resources-->Resources;
-	Home--/contact-->ContactUs[Contact Us];
+	Home-->ContactUs[Contact E-mail App];
 	Resources--/spirits-->Spirits
 	Resources--/tech-->Technologies
 	Resources--/ufos-->UFOs
