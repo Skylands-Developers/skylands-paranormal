@@ -11,7 +11,7 @@ Originally designed via [Weebly](https://www.weebly.com/), this project aims to 
 -   Code formatting with Prettier
 -   Linting with ESLint
 -   Static Types with TypeScript
--   Hosting with Vercel
+-   Hosting with Fly.io
 
 ## Sitemap
 
