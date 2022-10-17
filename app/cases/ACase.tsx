@@ -80,8 +80,6 @@ export function ACase(props: CaseProps): JSX.Element {
 						<div key={url} className="video">
 							<iframe
 								key={"iframe_" + url}
-								width="560"
-								height="315"
 								src={url}
 								title={url}
 								frameBorder="0"
