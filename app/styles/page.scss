@@ -92,6 +92,10 @@
 
 			&.video {
 				width: 100%;
+				> iframe {
+					width: 50vw;
+					height: 520px;
+				}
 			}
 		}
 	}
@@ -137,5 +141,12 @@
 			max-height: 90vh;
 			width: auto !important;
 		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.page .gallery.investigations div.video > iframe {
+		height: 300px;
+		width: 75vw;
 	}
 }
