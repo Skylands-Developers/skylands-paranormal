@@ -24,10 +24,10 @@ export const C2019_2 = () => {
 						"Brian conducting Estes Spirit Box session in the attic",
 				},
 			]}
-			// videos={[
-			// 	"https://youtu.be/0bBZ3FMPvpI",
-			// 	"https://youtu.be/hp3lYZLb7rQ",
-			// ]}
+			videos={[
+				"https://www.youtube.com/embed/0bBZ3FMPvpI",
+				"https://www.youtube.com/embed/hp3lYZLb7rQ",
+			]}
 		/>
 	);
 };

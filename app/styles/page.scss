@@ -89,6 +89,10 @@
 
 		&.investigations div {
 			margin: 16px;
+
+			&.video {
+				width: 100%;
+			}
 		}
 	}
 
