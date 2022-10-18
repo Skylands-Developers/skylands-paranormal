@@ -142,6 +142,23 @@
 			width: auto !important;
 		}
 	}
+
+	.image-link {
+		cursor: pointer;
+		content: attr("data-text");
+		transition: box-shadow 200ms;
+		filter: grayscale(0.5);
+
+		~ .title {
+			// margin-top: 8px;
+			color: $yellow_300;
+			font-size: 3rem;
+			text-align: center;
+			background: $background;
+			min-width: 300px;
+			max-height: 300px;
+		}
+	}
 }
 
 @media only screen and (max-width: 768px) {
