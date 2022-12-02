@@ -22,10 +22,9 @@ flowchart TB;
 	Home--/cases-->OurCases[Our Cases];
 	Home--/resources-->Resources;
 	Home-->ContactUs[Contact E-mail App];
-	Resources--/spirits-->Spirits
+	Resources--/investigation-basics-->InvestigationBasics[Investigation Basics]
+	Resources--/phenomena-->Phenomena
 	Resources--/tech-->Technologies
-	Resources--/ufos-->UFOs
-	Resources--/cryptids-->Cryptids
 ```
 
 ## Designs

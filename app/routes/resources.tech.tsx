@@ -1,5 +1,4 @@
 import type { LinksFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
 import pageStyle from "../styles/page.css";
 
 export const links: LinksFunction = () => {
@@ -96,19 +95,6 @@ export default function Tech() {
 					<li>Motion Light</li>
 				</ul>
 			</section>
-			<div
-				style={{
-					position: "fixed",
-					bottom: "16px",
-					left: "auto",
-					right: "auto",
-					top: "auto",
-					textAlign: "center",
-					width: "100%",
-				}}
-			>
-				<Link to="/resources">Back to Resources</Link>
-			</div>
 		</div>
 	);
 }

@@ -11,17 +11,17 @@ export default function Resources() {
 			<h1>Resources</h1>
 			<hr />
 			<section>
+				<Link
+					className="title-link"
+					to="/resources/investigation-basics"
+				>
+					Investigation Basics
+				</Link>
+				<Link className="title-link" to="/resources/phenomena">
+					Supernatural Phenomena
+				</Link>
 				<Link className="title-link" to="/resources/tech">
 					Tech
-				</Link>
-				<Link className="title-link" to="/resources/spirits">
-					Spirits
-				</Link>
-				<Link className="title-link" to="/resources/ufos">
-					UFOs
-				</Link>
-				<Link className="title-link" to="/resources/cryptids">
-					Cryptids
 				</Link>
 			</section>
 		</div>
