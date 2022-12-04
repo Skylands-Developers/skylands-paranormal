@@ -98,7 +98,8 @@ export default function InvestigationBasics() {
 				<h1 id="invesitgation-process">The Investigation Process</h1>
 				<p>
 					The first step to investigations is to have a location in
-					mind. Both scenes offer different experiences and require
+					mind. Locations can be categorized under either indoor or
+					outdoor. Both scenes offer different experiences and require
 					different subsets of equipment. Indoor is usually quieter
 					with less wind, so experiments can be controlled easier.
 					Indoor might also narrow searches within a location to
