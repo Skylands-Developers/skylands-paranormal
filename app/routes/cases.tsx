@@ -11,6 +11,8 @@ export default function Cases() {
 		<div className="page cases">
 			<h1>Our Cases</h1>
 			<hr />
+			{RecordedCases.C2022_2()}
+			{RecordedCases.C2022()}
 			{RecordedCases.C2019_2()}
 			{RecordedCases.C2019()}
 			{RecordedCases.C2018()}

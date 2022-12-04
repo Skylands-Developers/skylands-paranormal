@@ -7,3 +7,5 @@ export { C2012 } from "./2012";
 export { C2018 } from "./2018";
 export { C2019 } from "./2019";
 export { C2019_2 } from "./2019_2";
+export { C2022 } from "./2022";
+export { C2022_2 } from "./2022_2";
