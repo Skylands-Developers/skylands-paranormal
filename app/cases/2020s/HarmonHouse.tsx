@@ -19,7 +19,7 @@ export const HarmonHouse: Case = {
 						src: `${baseUrl}/2022_debra_harmon_house/1.jpg`,
 						alt: "Static field meter and Mel meter on second floor",
 						description:
-							"Second floor, family room, group EVP Session with Static and MEL Meters, active responses",
+							"Second floor, family room, group EVP Session with Static Meter and Onvoy Box, active responses",
 					},
 				]}
 			/>
