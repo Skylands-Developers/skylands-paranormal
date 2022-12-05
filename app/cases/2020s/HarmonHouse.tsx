@@ -7,6 +7,7 @@ export const HarmonHouse: Case = {
 	render: () => {
 		return (
 			<CaseView
+				underReview
 				year={HarmonHouse.year}
 				location={{
 					site: "Debra Harmon House",
@@ -15,9 +16,10 @@ export const HarmonHouse: Case = {
 				}}
 				images={[
 					{
-						src: `${baseUrl}/2022_debra_harmon_house/1.jpeg`,
-						alt: "",
-						description: "Under evidence review",
+						src: `${baseUrl}/2022_debra_harmon_house/1.jpg`,
+						alt: "Static field meter and Mel meter on second floor",
+						description:
+							"Second floor, family room, group EVP Session with Static and MEL Meters, active responses",
 					},
 				]}
 			/>

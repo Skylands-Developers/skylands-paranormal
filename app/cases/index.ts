@@ -10,6 +10,7 @@ import { WhiteHill } from "./2010s/WhiteHill";
 import { BaladerryInn } from "./2020s/BaladerryInn";
 import { FarmhouseHospital } from "./2020s/FarmhouseHospital";
 import { HarmonHouse } from "./2020s/HarmonHouse";
+import { JennieWade } from "./2020s/JennieWadeHouse";
 import type { Case } from "./types";
 
 export const allCases: Case[] = [
@@ -22,6 +23,7 @@ export const allCases: Case[] = [
 	Pennhurst,
 	TechatticupMine,
 	WhiteHill,
+	JennieWade,
 	BaladerryInn,
 	FarmhouseHospital,
 	HarmonHouse,

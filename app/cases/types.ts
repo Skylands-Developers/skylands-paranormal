@@ -14,6 +14,7 @@ export type CaseProps = {
 	location: CaseLocation;
 	images: CaseImage[];
 	videos?: string[];
+	underReview?: boolean;
 };
 export interface Case {
 	year: CaseProps["year"];

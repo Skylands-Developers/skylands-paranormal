@@ -30,6 +30,14 @@ export function CaseView(props: CaseProps): JSX.Element {
 		<>
 			<h1 id={id}>{year}</h1>
 			<h2>{locationString}</h2>
+			{props.underReview === true ? (
+				<>
+					<h2>Pending Evidence Review</h2>
+					<br />
+				</>
+			) : (
+				<></>
+			)}
 			<section className="investigations gallery">
 				{props.images.map((image) => {
 					const imageElement = (

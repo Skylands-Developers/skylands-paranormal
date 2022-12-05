@@ -7,6 +7,7 @@ export const FarmhouseHospital: Case = {
 	render: () => {
 		return (
 			<CaseView
+				underReview
 				year={FarmhouseHospital.year}
 				location={{
 					site: "Farmhouse Field Hospital",
@@ -15,9 +16,10 @@ export const FarmhouseHospital: Case = {
 				}}
 				images={[
 					{
-						src: `${baseUrl}/2022_field_hospital/1.jpeg`,
-						alt: "",
-						description: "Under evidence review",
+						src: `${baseUrl}/2022_field_hospital/1.jpg`,
+						alt: "Laser grid on walls, EVP session, first floor",
+						description:
+							"First floor of the farm house, laser grid with EVP session",
 					},
 				]}
 			/>
