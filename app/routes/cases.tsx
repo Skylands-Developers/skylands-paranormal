@@ -1,5 +1,5 @@
 import type { LinksFunction } from "@remix-run/node";
-import * as RecordedCases from "../cases";
+import { allCases } from "../cases";
 import pageStyle from "../styles/page.css";
 
 export const links: LinksFunction = () => {
@@ -7,21 +7,15 @@ export const links: LinksFunction = () => {
 };
 
 export default function Cases() {
+	//Not a big deal to sort through < 40 elements from earliest to latest
+	const sortedCases = allCases.sort((a, b) => {
+		return b.year - a.year;
+	});
 	return (
 		<div className="page cases">
 			<h1>Our Cases</h1>
 			<hr />
-			{RecordedCases.C2022_2()}
-			{RecordedCases.C2022()}
-			{RecordedCases.C2019_2()}
-			{RecordedCases.C2019()}
-			{RecordedCases.C2018()}
-			{RecordedCases.C2012()}
-			{RecordedCases.C2011()}
-			{RecordedCases.C2010()}
-			{RecordedCases.C2009()}
-			{RecordedCases.C2007()}
-			{RecordedCases.C1997()}
+			{sortedCases.map((f) => f.render())}
 		</div>
 	);
 }

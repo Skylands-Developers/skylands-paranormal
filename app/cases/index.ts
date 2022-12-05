@@ -1,11 +1,28 @@
-export { C1997 } from "./1997";
-export { C2007 } from "./2007";
-export { C2009 } from "./2009";
-export { C2010 } from "./2010";
-export { C2011 } from "./2011";
-export { C2012 } from "./2012";
-export { C2018 } from "./2018";
-export { C2019 } from "./2019";
-export { C2019_2 } from "./2019_2";
-export { C2022 } from "./2022";
-export { C2022_2 } from "./2022_2";
+import { Roswell } from "./1990s/Roswell";
+import { Alcatraz } from "./2000s/Alcatraz";
+import { FortMifflin } from "./2000s/FortMifflin";
+import { EasternState } from "./2010s/EasternState";
+import { FortHenry } from "./2010s/FortHenry";
+import { MountWashington } from "./2010s/MountWashington";
+import { Pennhurst } from "./2010s/Pennhurst";
+import { TechatticupMine } from "./2010s/TechatticupMine";
+import { WhiteHill } from "./2010s/WhiteHill";
+import { BaladerryInn } from "./2020s/BaladerryInn";
+import { FarmhouseHospital } from "./2020s/FarmhouseHospital";
+import { HarmonHouse } from "./2020s/HarmonHouse";
+import type { Case } from "./types";
+
+export const allCases: Case[] = [
+	Roswell,
+	Alcatraz,
+	EasternState,
+	FortHenry,
+	FortMifflin,
+	MountWashington,
+	Pennhurst,
+	TechatticupMine,
+	WhiteHill,
+	BaladerryInn,
+	FarmhouseHospital,
+	HarmonHouse,
+];

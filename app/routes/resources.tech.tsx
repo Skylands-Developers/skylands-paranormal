@@ -8,7 +8,7 @@ export const links: LinksFunction = () => {
 export default function Tech() {
 	return (
 		<div className="page tech">
-			<h1>Tech</h1>
+			<h1>Investigation Technology</h1>
 			<hr />
 			<section>
 				<img

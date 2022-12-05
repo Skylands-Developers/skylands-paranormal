@@ -1,24 +1,7 @@
 import { useState } from "react";
+import type { CaseProps } from "./types";
 
-type CaseImage = {
-	src: string;
-	alt: string;
-	description: string;
-};
-type CaseLocation = {
-	site: string;
-	town: string;
-	state: string; //or province
-	country?: string;
-};
-type CaseProps = {
-	year: number;
-	location: CaseLocation;
-	images: CaseImage[];
-	videos?: string[];
-};
-
-export function ACase(props: CaseProps): JSX.Element {
+export function CaseView(props: CaseProps): JSX.Element {
 	const { location, year } = props;
 	const [isFullscreen, setIsFullscreen] = useState(false);
 	const [currentImage, setCurrentImage] = useState<string>();
