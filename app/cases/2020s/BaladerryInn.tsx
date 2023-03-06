@@ -28,6 +28,10 @@ export const BaladerryInn: Case = {
 							"Inns's Gezebo near Tennis Courts, where documented soldiers are buried nearby- EVPs recorded here",
 					},
 				]}
+				videos={[
+					"https://www.youtube.com/embed/vdmeSzN1mo8",
+					"https://www.youtube.com/embed/vOvFuimGjHs",
+				]}
 			/>
 		);
 	},

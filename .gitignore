@@ -119,3 +119,6 @@ app/styles/*.css*
 
 # VS Code
 .vscode/**/*
+
+# Misc
+cmds
