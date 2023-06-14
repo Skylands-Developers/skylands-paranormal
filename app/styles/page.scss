@@ -91,7 +91,39 @@
 			margin: 16px;
 
 			&.audio {
-				width: 10%;
+				width: 33.3%;
+
+				> audio,
+				audio::-webkit-media-controls-panel {
+					background: $background;
+					background-color: $background;
+				}
+				audio::-webkit-media-controls-enclosure,
+				audio::-webkit-media-controls-panel {
+					border: none !important;
+				}
+				audio::-webkit-media-controls-timeline-container,
+				audio::-webkit-media-controls-current-time-display,
+				audio::-webkit-media-controls-time-remaining-display {
+					color: $yellow_800;
+					border-color: $yellow_400;
+				}
+				audio::-webkit-media-controls-mute-button,
+				audio::-webkit-media-controls-play-button,
+				audio::-webkit-media-controls-timeline,
+				audio::-webkit-media-controls-volume-slider-container,
+				audio::-webkit-media-controls-volume-slider,
+				audio::-webkit-media-controls-seek-back-button,
+				audio::-webkit-media-controls-seek-forward-button,
+				audio::-webkit-media-controls-fullscreen-button,
+				audio::-webkit-media-controls-rewind-button,
+				audio::-webkit-media-controls-return-to-realtime-button,
+				audio::-webkit-media-controls-toggle-closed-captions-button {
+					filter: invert(1);
+				}
+				audio input[title="more options"] {
+					filter: invert(1);
+				}
 			}
 
 			&.video {
@@ -157,8 +189,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.page .gallery.investigations div.video > iframe {
-		height: 300px;
-		width: 75vw;
+	.page .gallery.investigations {
+		div.audio {
+			width: 100%;
+		}
+		div.video > iframe {
+			height: 300px;
+			width: 75vw;
+		}
 	}
 }
