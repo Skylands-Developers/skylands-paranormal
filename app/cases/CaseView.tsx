@@ -65,6 +65,24 @@ export function CaseView(props: CaseProps): JSX.Element {
 						</div>
 					);
 				})}
+			</section>
+
+			<section className="investigations gallery">
+				{props.audios &&
+					props.audios.length > 0 &&
+					props.audios.map(({ description, src }) => (
+						<div key={description} className="audio">
+							<audio controls>
+								<source src={src} type="audio/mpeg" />
+							</audio>
+							<br />
+							<br />
+							<span>{description}</span>
+						</div>
+					))}
+			</section>
+
+			<section className="investigations gallery">
 				{props.videos &&
 					props.videos.length > 0 &&
 					props.videos.map((url) => (

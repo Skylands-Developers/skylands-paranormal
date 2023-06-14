@@ -90,6 +90,10 @@
 		&.investigations div {
 			margin: 16px;
 
+			&.audio {
+				width: 10%;
+			}
+
 			&.video {
 				width: 100%;
 				> iframe {

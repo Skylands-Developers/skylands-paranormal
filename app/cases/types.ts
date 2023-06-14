@@ -3,6 +3,10 @@ export type CaseImage = {
 	alt: string;
 	description: string;
 };
+export type CaseAudio = {
+	src: string;
+	description: string;
+};
 export type CaseLocation = {
 	site: string;
 	town: string;
@@ -13,6 +17,7 @@ export type CaseProps = {
 	year: number;
 	location: CaseLocation;
 	images: CaseImage[];
+	audios?: CaseAudio[];
 	videos?: string[];
 	underReview?: boolean;
 };
