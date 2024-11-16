@@ -1,6 +1,6 @@
 {
 	"name": "skylands-paranormal",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Originally designed via [Weebly](https://www.weebly.com/), this project aims to take it to the next level and build it from \"scratch\" via [React](https://reactjs.org/) and [Remix](https://github.com/remix-run/remix).",
 	"main": "index.js",
 	"scripts": {
