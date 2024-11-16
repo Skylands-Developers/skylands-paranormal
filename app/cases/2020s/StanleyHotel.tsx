@@ -37,7 +37,7 @@ export const StanleyHotel: Case = {
 				audios={[
 					{
 						description:
-							"4th Floor Recording Session,what sounds like a child running down the hall, none observed (whistling is AC)",
+							"4th Floor Recording Session, what sounds like a child running down the hall, none observed (whistling is AC)",
 						src: `${baseUrl}/${FOLDER}/running.mp3`,
 					},
 					{
