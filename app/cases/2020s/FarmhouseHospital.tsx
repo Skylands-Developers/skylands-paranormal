@@ -8,7 +8,6 @@ export const FarmhouseHospital: Case = {
 	render: () => {
 		return (
 			<CaseView
-				underReview
 				year={FarmhouseHospital.year}
 				location={{
 					site: "Farmhouse Field Hospital",

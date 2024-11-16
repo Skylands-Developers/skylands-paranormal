@@ -8,9 +8,11 @@ import { Pennhurst } from "./2010s/Pennhurst";
 import { TechatticupMine } from "./2010s/TechatticupMine";
 import { WhiteHill } from "./2010s/WhiteHill";
 import { BaladerryInn } from "./2020s/BaladerryInn";
+import { CharlestonJail } from "./2020s/CharlestonJail";
 import { FarmhouseHospital } from "./2020s/FarmhouseHospital";
 import { HarmonHouse } from "./2020s/HarmonHouse";
 import { JennieWade } from "./2020s/JennieWadeHouse";
+import { StanleyHotel } from "./2020s/StanleyHotel";
 import type { Case } from "./types";
 
 export const allCases: Case[] = [
@@ -27,4 +29,6 @@ export const allCases: Case[] = [
 	BaladerryInn,
 	FarmhouseHospital,
 	HarmonHouse,
+	StanleyHotel,
+	CharlestonJail,
 ];

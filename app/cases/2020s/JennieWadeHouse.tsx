@@ -7,7 +7,6 @@ export const JennieWade: Case = {
 	render: () => {
 		return (
 			<CaseView
-				underReview
 				year={JennieWade.year}
 				location={{
 					site: "Jennie Wade's Homes",
