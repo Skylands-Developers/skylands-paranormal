@@ -8,7 +8,6 @@ export const StanleyHotel: Case = {
 	render: () => {
 		return (
 			<CaseView
-				underReview
 				year={StanleyHotel.year}
 				location={{
 					site: "Stanley Hotel",
@@ -38,17 +37,17 @@ export const StanleyHotel: Case = {
 				audios={[
 					{
 						description:
-							"4th Floor EVP Session, Recorder 1, what sounds like a child running down the hall, none observed",
+							"4th Floor Recording Session,what sounds like a child running down the hall, none observed (whistling is AC)",
 						src: `${baseUrl}/${FOLDER}/running.mp3`,
 					},
 					{
 						description:
-							"4th Floor EVP Session, Recorder 1, what sounds like a child running after we hear voices outside",
+							"4th Floor Recording Session, what sounds like a child running after we hear voices outside",
 						src: `${baseUrl}/${FOLDER}/voices-running.mp3`,
 					},
 					{
 						description:
-							"4th Floor EVP Session, Recorder 1, what sounds like a loud bump, could have been a door closing down the hall",
+							"4th Floor Recording Session, what sounds like a loud bump, could have been a door closing but sounds very close",
 						src: `${baseUrl}/${FOLDER}/loud-bump.mp3`,
 					},
 				]}
