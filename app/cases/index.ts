@@ -13,6 +13,7 @@ import { FarmhouseHospital } from "./2020s/FarmhouseHospital";
 import { HarmonHouse } from "./2020s/HarmonHouse";
 import { JennieWade } from "./2020s/JennieWadeHouse";
 import { StanleyHotel } from "./2020s/StanleyHotel";
+import { WomensClubMorrisownPt1 } from "./2020s/WomensClubMorristown";
 import type { Case } from "./types";
 
 export const allCases: Case[] = [
@@ -31,4 +32,5 @@ export const allCases: Case[] = [
 	HarmonHouse,
 	StanleyHotel,
 	CharlestonJail,
+	WomensClubMorrisownPt1,
 ];
