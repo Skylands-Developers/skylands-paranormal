@@ -18,23 +18,15 @@ const teamMembers: TeamMember[] = [
 	},
 	{
 		name: "Dean",
-		titles: ["Lead Investigator"],
+		titles: ["Co-founder", "Lead Investigator"],
 	},
 	{
 		name: "Evan",
 		titles: ["Investigator", "Tech Lead"],
 	},
 	{
-		name: "Brian",
-		titles: ["Investigator", "Researcher"],
-	},
-	{
 		name: "Sarah",
 		titles: ["Investigator", "Spiritual Cleanser"],
-	},
-	{
-		name: "Ashley",
-		titles: ["Investigator", "Sensitive"],
 	},
 	{
 		name: "Maryann",
@@ -53,10 +45,9 @@ export default function Team() {
 	};
 	const bannerImage = (
 		<img
-			alt="The team at White Hill Mansion, Fieldsboro, NJ 2019"
-			title="The team outside White Hill Mansion in Fieldsboro, NJ 2019"
+			alt="The team preparing for another night at the Women's Club of Morristown, NJ 2025"
+			title="The team preparing for another night at the Women's Club of Morristown, NJ 2025"
 			src="static/media/profiles/team_banner.jpg"
-			onClick={handleFullscreen}
 		/>
 	);
 	return (
@@ -66,15 +57,11 @@ export default function Team() {
 			<section>
 				{bannerImage}
 				<p style={{ textAlign: "center" }}>
-					<i>The team at White Hill Mansion, Fieldsboro, NJ 2019</i>
+					<i>
+						The team preparing for another night at the Women's Club
+						of Morristown, NJ 2025
+					</i>
 				</p>
-				<dialog
-					className={isFullscreen ? "dialog active" : "dialog"}
-					open={isFullscreen}
-					onClick={() => handleFullscreen()}
-				>
-					{bannerImage}
-				</dialog>
 			</section>
 			<hr />
 			<section className="gallery">
