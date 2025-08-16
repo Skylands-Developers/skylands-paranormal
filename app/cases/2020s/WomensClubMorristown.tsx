@@ -16,6 +16,11 @@ export const WomensClubMorrisownPt1: Case = {
 				}}
 				images={[
 					{
+						src: `${baseUrl}/${FOLDER}/4.jpg`,
+						alt: "The facade of the home in Morristown, NJ",
+						description: "The facade of the home in Morristown, NJ",
+					},
+					{
 						src: `${baseUrl}/${FOLDER}/0.jpg`,
 						alt: "The main hallway of the ground floor of the club",
 						description:
@@ -24,7 +29,7 @@ export const WomensClubMorrisownPt1: Case = {
 					{
 						src: `${baseUrl}/${FOLDER}/1.jpg`,
 						alt: "Basement EVP session in the club",
-						description: "Basement EPVP session in the club",
+						description: "Basement EVP session in the club",
 					},
 					{
 						src: `${baseUrl}/${FOLDER}/3.jpg`,
@@ -51,8 +56,91 @@ export const WomensClubMorrisownPt1: Case = {
 					},
 					{
 						description:
-							"Solo Recording Session, sounds like someone prefers to be addressed a certain way",
+							"Solo Recording Session, front room, sounds like someone prefers to be addressed a certain way",
 						src: `${baseUrl}/${FOLDER}/congressman.wav`,
+					},
+				]}
+			/>
+		);
+	},
+};
+
+const FOLDER2 = "2025_womens_club_pt2";
+export const WomensClubMorrisownPt2: Case = {
+	year: 2025,
+	render: () => {
+		return (
+			<CaseView
+				year={WomensClubMorrisownPt2.year}
+				location={{
+					site: "Women's Club",
+					town: "Morristown",
+					state: "New Jersey",
+				}}
+				images={[
+					{
+						src: `${baseUrl}/${FOLDER2}/0.jpg`,
+						alt: "Main hall staircase, set up for physical evidence capture",
+						description:
+							"Attempting to capture physical manipulation of balls on the main floor staircase, using IR video camera",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/1.jpg`,
+						alt: "Evan in the Drawing Room",
+						description:
+							"Evan conducting a Call and Response session in the Drawing Room",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/2.jpg`,
+						alt: "Introductory session, EMF meters, baseline reading",
+						description:
+							"EMF meters before introductory session and reading of collected history on home, showing baseline levels",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/3.jpg`,
+						alt: "Introductory session, EMF meters, elevated reading",
+						description:
+							"EMF meters during introductory session of historical recollection, recalling dates and notable people and acheivements, showing elevated levels",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/4.jpg`,
+						alt: "Basement bowling alley, very creepy",
+						description:
+							"EVP session in the bowling alley in the basement, very odd feelings down here",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/5.jpg`,
+						alt: "Laser grid and music experiment in theatre room",
+						description:
+							"Recording for any activity in the theatre room, using historical music, laser grid, and IR video camera",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/6.jpg`,
+						alt: "Dean and Jason in theatre room",
+						description:
+							"Dean and Jason investing the stage inciting people to dance to the historical music being played",
+					},
+				]}
+				audios={[
+					{
+						description:
+							"Drawing Room, Estes method, group makes brief contact with Peter Condict",
+						src: `${baseUrl}/${FOLDER2}/peter-estes-longer.wav`,
+					},
+					{
+						description:
+							"Drawing Room, Estes method, group explains the devices, and the previous tennants think it's weird",
+						src: `${baseUrl}/${FOLDER2}/ghosts-scientists-weird.wav`,
+					},
+					{
+						description:
+							"Drawing Room, Estes method, in between conversations a faint whistling (audio enhanced) picked up",
+						src: `${baseUrl}/${FOLDER2}/someone-whistling.wav`,
+					},
+					{
+						description:
+							"Basement recorder, left unatended for around 40 minutes, strange ringing sound",
+						src: `${baseUrl}/${FOLDER2}/basement-bell-sound.wav`,
 					},
 				]}
 			/>
