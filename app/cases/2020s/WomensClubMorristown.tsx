@@ -87,9 +87,9 @@ export const WomensClubMorrisownPt2: Case = {
 					},
 					{
 						src: `${baseUrl}/${FOLDER2}/1.jpg`,
-						alt: "Evan in the Drawing Room",
+						alt: "Evan and Jason in the Drawing Room",
 						description:
-							"Evan conducting a Call and Response session in the Drawing Room",
+							"Evan, Jason, and Sarah (not pictured) conducting a Call and Response session in the Drawing Room",
 					},
 					{
 						src: `${baseUrl}/${FOLDER2}/2.jpg`,
@@ -111,15 +111,32 @@ export const WomensClubMorrisownPt2: Case = {
 					},
 					{
 						src: `${baseUrl}/${FOLDER2}/5.jpg`,
-						alt: "Laser grid and music experiment in theatre room",
+						alt: "Laser grid and music experiment in Theatre Room",
 						description:
-							"Recording for any activity in the theatre room, using historical music, laser grid, and IR video camera",
+							"Recording for any activity in the Theatre Room, using historical music, laser grid, and IR video camera",
 					},
 					{
 						src: `${baseUrl}/${FOLDER2}/6.jpg`,
-						alt: "Dean and Jason in theatre room",
+						alt: "Dean and Jason in Theatre Room",
 						description:
 							"Dean and Jason investing the stage inciting people to dance to the historical music being played",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/7.jpg`,
+						alt: "Basement recording session",
+						description:
+							"First basement recording session, trying to recreate the personal experiences that occurred the previous investigation",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/8.jpg`,
+						alt: "Trying to use trigger objects during sessions",
+						description:
+							"Old books can make great trigger objects, these were used during one of the Estes sessions in the Living Room",
+					},
+					{
+						src: `${baseUrl}/${FOLDER2}/9.jpg`,
+						alt: "Group Estes session in Living Room",
+						description: "Group Estes session in the Living Room",
 					},
 				]}
 				audios={[
