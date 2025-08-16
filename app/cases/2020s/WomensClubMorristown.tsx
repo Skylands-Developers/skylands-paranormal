@@ -4,6 +4,7 @@ import type { Case } from "../types";
 
 const FOLDER = "2025_womens_club_pt1";
 export const WomensClubMorrisownPt1: Case = {
+	month: 5,
 	year: 2025,
 	render: () => {
 		return (
@@ -21,13 +22,13 @@ export const WomensClubMorrisownPt1: Case = {
 						description: "The facade of the home in Morristown, NJ",
 					},
 					{
-						src: `${baseUrl}/${FOLDER}/2.jpg`,
+						src: `${baseUrl}/${FOLDER}/0.jpg`,
 						alt: "The main hallway of the ground floor of the club",
 						description:
 							"The club main hall, setting up for an EVP session",
 					},
 					{
-						src: `${baseUrl}/${FOLDER}/1.jpg`,
+						src: `${baseUrl}/${FOLDER}/2.png`,
 						alt: "Basement EVP session in the club",
 						description: "Basement EVP session in the club",
 					},
@@ -67,6 +68,7 @@ export const WomensClubMorrisownPt1: Case = {
 
 const FOLDER2 = "2025_womens_club_pt2";
 export const WomensClubMorrisownPt2: Case = {
+	month: 8,
 	year: 2025,
 	render: () => {
 		return (
@@ -80,7 +82,7 @@ export const WomensClubMorrisownPt2: Case = {
 				}}
 				images={[
 					{
-						src: `${baseUrl}/${FOLDER2}/0.jpg`,
+						src: `${baseUrl}/${FOLDER2}/0.png`,
 						alt: "Main hall staircase, set up for physical evidence capture",
 						description:
 							"Attempting to capture physical manipulation of balls on the main floor staircase, using IR video camera",

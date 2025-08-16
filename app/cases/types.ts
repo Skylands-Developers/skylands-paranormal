@@ -15,6 +15,7 @@ export type CaseLocation = {
 };
 export type CaseProps = {
 	year: number;
+	month?: number;
 	location: CaseLocation;
 	images: CaseImage[];
 	audios?: CaseAudio[];
@@ -23,5 +24,6 @@ export type CaseProps = {
 };
 export interface Case {
 	year: CaseProps["year"];
+	month?: CaseProps["month"];
 	render: () => JSX.Element;
 }

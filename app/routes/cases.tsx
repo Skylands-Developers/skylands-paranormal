@@ -9,6 +9,13 @@ export const links: LinksFunction = () => {
 export default function Cases() {
 	//Not a big deal to sort through < 40 elements from earliest to latest
 	const sortedCases = allCases.sort((a, b) => {
+		if (
+			b.year === a.year &&
+			b.month !== undefined &&
+			a.month !== undefined
+		) {
+			return b.month - a.month;
+		}
 		return b.year - a.year;
 	});
 	return (
