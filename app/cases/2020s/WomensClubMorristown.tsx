@@ -21,7 +21,7 @@ export const WomensClubMorrisownPt1: Case = {
 						description: "The facade of the home in Morristown, NJ",
 					},
 					{
-						src: `${baseUrl}/${FOLDER}/0.jpg`,
+						src: `${baseUrl}/${FOLDER}/2.jpg`,
 						alt: "The main hallway of the ground floor of the club",
 						description:
 							"The club main hall, setting up for an EVP session",
