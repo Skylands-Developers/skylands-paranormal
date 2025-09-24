@@ -162,6 +162,11 @@ export const WomensClubMorrisownPt2: Case = {
 							"Basement recorder, left unatended for around 40 minutes, strange ringing sound",
 						src: `${baseUrl}/${FOLDER2}/basement-bell-sound.wav`,
 					},
+					{
+						description:
+							"Foyer off hallway, Maryann conducting call and response session, asking for non-vocal methods of responding",
+						src: `${baseUrl}/${FOLDER2}/foyer-knock.wav`,
+					},
 				]}
 			/>
 		);
